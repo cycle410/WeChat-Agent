@@ -1,0 +1,40 @@
+{
+  "name": "WeChat-Agent",
+  "version": "0.4.0",
+  "description": "WeChat-Agent — GitHub Copilot Chat in WeChat, powered by @github/copilot-sdk.",
+  "type": "module",
+  "bin": {
+    "WeChat-Agent": "bin/WeChat-Agent.mjs"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cycle410/WeChat-Agent.git"
+  },
+  "homepage": "https://github.com/cycle410/WeChat-Agent#readme",
+  "keywords": [
+    "weixin",
+    "wechat",
+    "bot",
+    "chatbot",
+    "ai",
+    "copilot",
+    "github-copilot",
+    "copilot-sdk",
+    "vscode",
+    "ilink",
+    "cli"
+  ],
+  "author": "cycle410",
+  "dependencies": {
+    "@github/copilot-sdk": "^1.0.8"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
