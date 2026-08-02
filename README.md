@@ -1,10 +1,5 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js" alt="Node">
-<img src="https://img.shields.io/badge/Copilot-SDK-8A2BE2?logo=githubcopilot" alt="SDK">
-<img src="https://img.shields.io/badge/Platform-WeChat-07C160?logo=wechat" alt="WeChat">
-<img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
-
 # WeChat-Agent
 
 **微信里聊 Copilot，就像在 VS Code 里一样。**
@@ -23,10 +18,10 @@
 
 ## 能做什么
 
-- 💬 **自然对话** — 问什么答什么，跟 VS Code 里的 Copilot Chat 体验一致
-- 🧵 **独立上下文** — 每个人有自己独立的对话线程，互不干扰
-- 🔄 **自动重连** — 微信掉线自动恢复，会话过期自动刷新
-- 🎛️ **随时切模型** — 一行命令换 Claude、GPT、Gemini 或者你自己接的 API
+-  **自然对话** — 问什么答什么，跟 VS Code 里的 Copilot Chat 体验一致
+-  **独立上下文** — 每个人有自己独立的对话线程，互不干扰
+-  **自动重连** — 微信掉线自动恢复，会话过期自动刷新
+-  **随时切模型** — 一行命令换 Claude、GPT、Gemini 或者你自己接的 API
 -  **加密存储** — 敏感信息 AES-256-CBC 落盘，不过期不泄露
 
 ## 用法
@@ -80,6 +75,10 @@ VS Code 里登录了 Copilot 就可以直接跑，不用额外设置环境变量
 <div align="center">
 
 **微信消息 → Copilot SDK → Copilot CLI → GitHub Copilot Chat**
+
+---
+
+MIT © 2026 
 
 </div>
 
